@@ -11,7 +11,7 @@ contactForm.addEventListener('submit', function(e) {
         body: formData,
         mode: 'no-cors',
     }).then(() => {
-        window.location.href = '/thankyou.html';
+        window.location.href = 'file:///E:/Reality/contact-form-master/thankyou.html';
 
     }).catch((e) => alert('error occured'));
 
